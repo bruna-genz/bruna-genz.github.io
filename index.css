@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQoU2O8fv26MQMBwEiyIk1NzbPYNGGYhE0hVuvQFZJuEtFuwhYaRAUBAF9iLIIoz8ZgAAAAAElFTkSuQmCC) repeat; }
+
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 100px;
+  background-color: black; }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .card .bg-gradient {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("assets/images/Mac+FB.png");
+    width: 80%;
+    height: 400px;
+    background-size: cover; }
+
+/*# sourceMappingURL=index.css.map */
