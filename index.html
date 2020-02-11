@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="index.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+    <title>Bruna Genz</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-secondary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#">BG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,106 +18,177 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#projects">Projects</a>
+              <a class="nav-link font-weight-bold" href="#projects-box">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#contact">Contact</a>
+              <a class="nav-link font-weight-bold" href="#skills-box">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#contact-box">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
-      <div class="container-md w-50 mx-auto my-5">
-          <h1 class="w-auto">Hello, I'm Bruna</h1>
+      <!-- Presentation Box -->
+      <div class="container-md w-50 presentation-box">
+          <h1 class="w-auto mb-3 title">Hello, I'm Bruna.</h1>
           <h5 class="w-auto">
             I'm a full-stack software developer based in Halifax, Canada.<br/>
-            You can check my skills <a href="assets/files/brunas-resume.pdf" target="_blank">here</a> and my resume <a href="assets/files/brunas-resume.pdf" target="_blank">here</a>.
+            You can check my skills <a href="#skills-box">here</a> and my resume <a href="assets/files/brunas-resume.pdf" target="_blank">here</a>.
             Above you can see some of the projects I built.
           </h5>
       </div>
       
-      <!-- Facebook Clone -->
-      <div class="mt-5 pt-3" id="projects">
-        <h2 class="text-center mb-3">Selected Projects</h2>
-        <hr>
+      <!-- Projects Box -->
+      <div class="mt-5 pt-3" id="projects-box">
+        <h2 class="text-center mb-3 title">Selected Projects</h2>
+        <hr class="mt-4 mb-5">
+        
+        <!-- Facebook Clone -->
         <div class="card w-75 mx-auto my-5">
           <div class="row no-gutters">
             <div class="col-md-6">
-              <div class="card-img bg-gradient" alt="..."></div>
+              <img src="assets/images/facebook-green.png" class="card-img" alt="...">
             </div>
             <div class="col-md-6">
               <div class="card-body">
-                <h5 class="card-title">Facebook Clone</h5>
+                <h3 class="card-title title">Facebook Clone</h3>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="languages">
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                </h5>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-outline-secondary">Source code</a></button>
+                  <a href="#" class="btn btn-outline-secondary">Live version</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Members Only -->
+        <div class="card w-75 mx-auto my-5">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="assets/images/members-only-beige.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title title">Facebook Clone</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="languages">
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                </h5>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-outline-secondary">Source code</a></button>
+                  <a href="#" class="btn btn-outline-secondary">Live version</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Private events -->
+        <div class="card w-75 mx-auto my-5">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="assets/images/private_events_aqua.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title title">Facebook Clone</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="languages">
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                </h5>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-outline-secondary">Source code</a></button>
+                  <a href="#" class="btn btn-outline-secondary">Live version</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Calculator -->
+        <div class="card w-75 mx-auto my-5">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="assets/images/calculator-pink.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title title">Facebook Clone</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="languages">
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                </h5>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-outline-secondary">Source code</a></button>
+                  <a href="#" class="btn btn-outline-secondary">Live version</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TNW -->
+        <div class="card w-75 mx-auto my-5">
+          <div class="row no-gutters">
+            <div class="col-md-6">
+              <img src="assets/images/TNW-strong-green.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h3 class="card-title title">Facebook Clone</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="languages">
+                  <span class="badge badge-secondary">HTML5</span>
+                  <span class="badge badge-secondary">CSS3</span>
+                </h5>
+                <div class="btn-container">
+                  <a href="#" class="btn btn-outline-secondary">Source code</a></button>
+                  <a href="#" class="btn btn-outline-secondary">Live version</a></button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Private events -->
-      <div class="card w-75 mx-auto my-5">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="assets/images/mac+PE.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Facebook Clone</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
+      <!-- Skills -->
+      <div class="container-md w-50 mx-auto" id="skills-box">
+          <h2 class="text-center mb-3 title">Skills</h2>
+          <hr class="mt-4 mb-5">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>Bulma</li>
+            <li>JavaScript (ES6)</li>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>SQL</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Heroku</li>
+          </ul>
       </div>
 
-      <!-- Members Only -->
-      <div class="card w-75 mx-auto my-5">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="assets/images/mac-MO.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Facebook Clone</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Contact -->
+      <div class="container-md w-50 mx-auto" id="contact-box">
+          <h2 class="text-center mb-3 title">Contact</h2>
+          <hr class="mt-4 mb-5">
+          <div>
 
-      <!-- TNW -->
-      <div class="card w-75 mx-auto my-5">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="assets/images/mac+TNW.png" class="card-img" alt="...">
           </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Facebook Clone</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- NW -->
-      <div class="card w-75 mx-auto my-5">
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <img src="assets/images/mac+NW.png" class="card-img" alt="...">
-          </div>
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Facebook Clone</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
       </div>
 
 
