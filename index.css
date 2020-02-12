@@ -95,4 +95,11 @@ hr {
       flex-direction: column;
       align-items: center; } }
 
+.credits {
+  color: #9897A0; }
+  .credits a {
+    color: #9897A0; }
+    .credits a:hover {
+      color: #9897A0; }
+
 /*# sourceMappingURL=index.css.map */

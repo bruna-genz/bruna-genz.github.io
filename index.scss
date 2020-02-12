@@ -122,5 +122,13 @@ hr {
      }
 }
 
-
+.credits {
+    color: #9897A0;
+    a {
+        color: #9897A0;
+        &:hover {
+            color: #9897A0;
+        }
+    }
+}
 
